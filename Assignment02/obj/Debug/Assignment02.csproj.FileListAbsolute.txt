@@ -1,0 +1,7 @@
+D:\Conestoga\Semester 2\3. Software QA Techniques\Assignments\Assignment02\Assignment02\bin\Debug\Assignment02.exe.config
+D:\Conestoga\Semester 2\3. Software QA Techniques\Assignments\Assignment02\Assignment02\bin\Debug\Assignment02.exe
+D:\Conestoga\Semester 2\3. Software QA Techniques\Assignments\Assignment02\Assignment02\bin\Debug\Assignment02.pdb
+D:\Conestoga\Semester 2\3. Software QA Techniques\Assignments\Assignment02\Assignment02\obj\Debug\Assignment02.csproj.AssemblyReference.cache
+D:\Conestoga\Semester 2\3. Software QA Techniques\Assignments\Assignment02\Assignment02\obj\Debug\Assignment02.csproj.CoreCompileInputs.cache
+D:\Conestoga\Semester 2\3. Software QA Techniques\Assignments\Assignment02\Assignment02\obj\Debug\Assignment02.exe
+D:\Conestoga\Semester 2\3. Software QA Techniques\Assignments\Assignment02\Assignment02\obj\Debug\Assignment02.pdb
