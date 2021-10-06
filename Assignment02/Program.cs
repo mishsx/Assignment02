@@ -74,10 +74,13 @@ namespace Assignment02
                 int selectedOption;
                 do
                 {
-                    Console.Write("Please enter a value between 1-8 ");
-                    Console.Write("Please choose an option [1-8] \n1.Get Rectangle Length\n2.Change Rectangle Length\n3.Get Rectangle Width\n4.Change Rectangle Width\n5.Get Rectangle Height\n6.Change Rectangle Height\n7.Get Rectangle Volume\n8.Exit\n");
+                    Console.WriteLine();
+                    Console.WriteLine("Please enter a value between 1-8 ");
+                    Console.WriteLine();
+                    Console.WriteLine("Please choose an option [1-8] \n1.Get Rectangle Length\n2.Change Rectangle Length\n3.Get Rectangle Width\n4.Change Rectangle Width\n5.Get Rectangle Height\n6.Change Rectangle Height\n7.Get Rectangle Volume\n8.Exit\n");
+                    Console.Write("Enter a value: ");
                     selection = Console.ReadLine();
-                } while (!int.TryParse(selection, out selectedOption) || (selectedOption < 0) || (selectedOption >8));
+                } while (!int.TryParse(selection, out selectedOption));
 
 
                 switch (selectedOption)
