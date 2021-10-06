@@ -30,40 +30,90 @@ namespace Assignment02
         //Fetches the length of rectangle.
         public int GetLength()
         {
-            return rLength;
+            if(rLength > 0)
+            {
+                return rLength;
+            }
+            else
+            {
+                return 0;
+            }
+            
         }
 
         //Sets the length of rectangle.
-        public void SetLength(int length) 
+        public int SetLength(int length) 
         {
-            rLength = length;
+            if(length > 0)
+            {
+                return rLength=length;
+            }
+            else
+            {
+                return 0;
+            }    
+
         }
+
 
         //Fetches the width of rectangle.
         public int GetWidth() 
         {
-            return rWidth;        
+            if (rWidth > 0)
+            {
+                return rWidth;
+            }
+            else
+            {
+                return 0;
+            }
+                   
         }
 
         //Sets the width of rectangle.
-        public void SetWidth(int width) 
+        public int SetWidth(int width) 
         {
-            rWidth = width;
+            
+            if (width > 0)
+            {
+                return rWidth = width;
+            }
+            else
+            {
+                return 0;
+            }
         }
 
         //Fetches the length of rectangle.
         public int GetHeight() 
         {
-            return rHeight;
+            if (rHeight > 0)
+            {
+                return rHeight;
+            }
+            else
+            {
+                return 0;
+            }
         }
 
-        public void SetHeight(int height) 
+        public int SetHeight(int height) 
         {
-            rHeight = height;
+            if (height > 0)
+            {
+                return rHeight = height;
+            }
+            else
+            {
+                return 0;
+            }
+
+            
         }
 
         public int GetVolume() 
         {
+           
             return GetLength() * GetWidth() * GetHeight();
         }
 
